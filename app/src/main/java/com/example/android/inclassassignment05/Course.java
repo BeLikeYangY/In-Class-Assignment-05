@@ -36,4 +36,11 @@ public class Course implements Serializable {
     public void setScore(double score) {
         this.score = score;
     }
+
+    @Override
+    public String toString() {
+        return "Course: " + courseName
+                +'\n'+ "Credit: " + credit
+                +'\n'+ "Score: " + score;
+    }
 }
