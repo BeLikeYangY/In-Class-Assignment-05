@@ -9,7 +9,7 @@ import android.widget.TextView;
 import java.util.ArrayList;
 
 public class SecondActivity extends AppCompatActivity {
-    private String displayMessage;
+    private String displayMessage = "";
     private double credit;
     private double score;
 
@@ -29,6 +29,7 @@ public class SecondActivity extends AppCompatActivity {
             String n = courses.get(i).toString();
             displayMessage = displayMessage + n +'\n'+'\n';
         }
+
         TextView tv = new TextView(this);
         tv.setText(displayMessage);
         tv.setTextSize(30);
