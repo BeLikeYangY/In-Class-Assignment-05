@@ -32,9 +32,9 @@ public class MainActivity extends AppCompatActivity {
 
         Course c = new Course(name,credits,scores);
         cList.add(c);
-        course.setText(null);
-        credit.setText(null);
-        score.setText(null);
+        course.setText("");
+        credit.setText("");
+        score.setText("");
 
         Toast t = Toast.makeText(this, "Saved", Toast.LENGTH_SHORT);
         t.show();

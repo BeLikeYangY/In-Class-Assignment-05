@@ -16,7 +16,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".SecondActivity"
-            android:label="Result"></activity>
+            android:label="Your GPA"></activity>
     </application>
 
 </manifest>

@@ -30,10 +30,10 @@ public class SecondActivity extends AppCompatActivity {
             displayMessage = displayMessage + n +'\n'+'\n';
         }
 
-        TextView tv = new TextView(this);
-        tv.setText(displayMessage);
-        tv.setTextSize(30);
-        displayView.addView(tv);
+        TextView textView = new TextView(this);
+        textView.setText(displayMessage);
+        textView.setTextSize(30);
+        displayView.addView(textView);
 
         for(int i = 0; i < courses.size(); i++){
             double a = courses.get(i).getCredit();
