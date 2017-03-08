@@ -10,6 +10,30 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:orientation="vertical"
     tools:context="com.example.android.inclassassignment05.MainActivity">
+    <TextView
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity=""
+            android:text="Hello, Student!"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/setUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint="Enter Your Name" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           android:layout_marginBottom="20sp"
+            android:background="#009688"
+            android:onClick="changeUsername"
+          android:text="Save"
+           android:textColor="@android:color/white" />
+
 
     <EditText
         android:id="@+id/course"
