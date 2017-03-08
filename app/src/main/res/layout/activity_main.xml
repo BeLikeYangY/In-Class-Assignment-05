@@ -12,6 +12,7 @@
     tools:context="com.example.android.inclassassignment05.MainActivity">
 
     <EditText
+        android:id="@+id/course"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="25sp"
@@ -19,6 +20,7 @@
         android:layout_marginBottom="20dp"/>
 
     <EditText
+        android:id="@+id/credit"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="25sp"
@@ -26,6 +28,7 @@
         android:layout_marginBottom="20dp"/>
 
     <EditText
+        android:id="@+id/score"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="25sp"
@@ -36,13 +39,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Save"
-        android:layout_gravity="center"/>
+        android:layout_gravity="center"
+        android:onClick="SaveInput"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="result"
-        android:layout_gravity="center"/>
+        android:layout_gravity="center"
+        android:onClick="displayResult"/>
 
 
 </LinearLayout>
