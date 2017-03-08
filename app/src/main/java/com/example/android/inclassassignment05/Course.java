@@ -20,4 +20,12 @@ public class Course implements Serializable {
                 +'\n'+ "Credit: " + credit
                 +'\n'+ "Score: " + score;
     }
+
+    public double getCredit() {
+        return credit;
+    }
+
+    public double getScore() {
+        return score;
+    }
 }
